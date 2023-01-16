@@ -1,0 +1,44 @@
+package potatolcm;
+
+struct ard_orden_cola
+{
+	int8_t prioridad;
+	int8_t posicion;
+	int8_t velocidad;
+}
+
+struct ard_orden_pulso
+{
+	int8_t prioridad;
+	int8_t frecuencia;
+}
+
+struct ard_orden_mejillas
+{
+	int8_t prioridad;
+	int8_t rojo;
+	int8_t verde;
+	int8_t azul;
+}
+
+struct ard_sensores
+{
+	int32_t timestamp_sec;
+	int32_t timestamp_nsec;
+	int32_t luz_derecha;
+	int32_t luz_izquierda;
+	int32_t oreja_derecha;
+	int32_t oreja_izquierda;
+	int8_t	diadema;
+	int8_t	antena;
+}
+
+struct ard_actuadores
+{
+	int8_t pulso_frecuencia;
+	int8_t cola_posicion;
+	int8_t cola_velocidad;
+	int8_t mejillas_rojo;
+	int8_t mejillas_verde;
+	int8_t mejillas_azul;
+}

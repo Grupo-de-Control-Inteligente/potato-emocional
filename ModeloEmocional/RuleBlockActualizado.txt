@@ -1,0 +1,259 @@
+////	 BATERÍA ALTA
+
+//NEUTRAL0
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL2_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL2_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD1_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//NEUTRAL4_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL5_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL8_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL6_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//NEUTRAL7_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY1_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL8_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL8_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY3_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY1_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is SAD then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+
+//VERYHAPPY1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY2_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY3_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is SAD then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+
+//VERYHAPPY2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY2_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+
+//SAD1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//SAD2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD1_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD3_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//SAD3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+//VERYSAD1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD3_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+//VERYSAD2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is ALTA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+
+//	 BATERÍA MEDIA
+
+//NEUTRAL0
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL2_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL1_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL2_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD1_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//NEUTRAL4_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL5_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL8_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL6_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL6_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//NEUTRAL7_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY1_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL8_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL7_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//NEUTRAL8_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL5_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL8_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL7_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY3_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY1_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_1 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL4_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+//HAPPY3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is HAPPY3_1 and AnimicaUsuario is SAD then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+
+//VERYHAPPY1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY2_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY3_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY1_1 and AnimicaUsuario is SAD then EstadoMaquina is HAPPY2_1 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+
+//VERYHAPPY2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYHAPPY2_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYHAPPY2_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYHAPPY1_1 and AnimicaSinCaricia is MALEGRE", AnimicaUsuarioAnimica));
+
+//SAD1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL3_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD1_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//SAD2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL6_1 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD1_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD2_1 and AnimicaUsuario is SAD then EstadoMaquina is SAD3_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+//SAD3_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is HAPPY then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is SAD3_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+//VERYSAD1_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is HAPPY then EstadoMaquina is SAD2_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD3_1 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+//VERYSAD2_1
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is NEUTRAL then EstadoMaquina is VERYSAD1_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is MEDIA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_1 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_1 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+
+
+//	BATERÍA BAJA
+// NEUTRAL0
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL3_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL0 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+// NEUTRAL1_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL1_2 and AnimicaUsuario is SAD then EstadoMaquina is SAD1_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+// NEUTRAL2_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL4_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL2_2 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+// NEUTRAL3_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL4_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL3_2 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+// NEUTRAL4_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL5_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL3_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL4_2 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+// NEUTRAL5_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_2 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY1_2 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL4_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is NEUTRAL5_2 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+// HAPPY1_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_2 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY1_2 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is HAPPY2_2 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY1_2 and AnimicaUsuario is SAD then EstadoMaquina is HAPPY2_2 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+
+// HAPPY2_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_2 and AnimicaUsuario is HAPPY then EstadoMaquina is HAPPY1_2 and AnimicaSinCaricia is ALEGRE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL0 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is HAPPY2_2 and AnimicaUsuario is SAD then EstadoMaquina is NEUTRAL1_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+
+// SAD1_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD1_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL2_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD1_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is NEUTRAL1_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD1_2 and AnimicaUsuario is SAD then EstadoMaquina is SAD2_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+
+// SAD2_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD2_2 and AnimicaUsuario is HAPPY then EstadoMaquina is NEUTRAL2_2 and AnimicaSinCaricia is NORMAL", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD2_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD1_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is SAD2_2 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD1_2 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+// VERYSAD1_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_2 and AnimicaUsuario is HAPPY then EstadoMaquina is SAD2_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is SAD2_2 and AnimicaSinCaricia is TRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD1_2 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_2 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+// VERYSAD2_2
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_2 and AnimicaUsuario is HAPPY then EstadoMaquina is VERYSAD1_2 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_2 and AnimicaUsuario is NEUTRAL then EstadoMaquina is VERYSAD1_2 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+	ruleAnimicaUsuarioAnimica->addRule(Rule::parse("if Bateria is BAJA and Caricia is NADA and EstadoMaquinaAux is VERYSAD2_2 and AnimicaUsuario is SAD then EstadoMaquina is VERYSAD2_2 and AnimicaSinCaricia is MTRISTE", AnimicaUsuarioAnimica));
+
+

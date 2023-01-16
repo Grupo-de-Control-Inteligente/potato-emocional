@@ -1,0 +1,6 @@
+package potatolcm;
+
+struct estado_gen
+{
+	string estado;
+}

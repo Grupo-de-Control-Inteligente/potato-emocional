@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ModeloEmocional.dir/ModeloEmocional.cpp.o  -o ModeloEmocional  -L/home/potato/potato/ModeloEmocional/lib -Wl,-rpath,/home/potato/potato/ModeloEmocional/lib -rdynamic -lpthread -lrt -lfuzzylite -ldl -llcm 

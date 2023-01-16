@@ -1,0 +1,3 @@
+/home/potato/potato/ModeloEmocional/CMakeFiles/rebuild_cache.dir
+/home/potato/potato/ModeloEmocional/CMakeFiles/edit_cache.dir
+/home/potato/potato/ModeloEmocional/CMakeFiles/ModeloEmocional.dir

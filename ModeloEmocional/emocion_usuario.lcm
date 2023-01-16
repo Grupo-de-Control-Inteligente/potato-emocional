@@ -1,0 +1,5 @@
+package potatolcm;
+
+struct emocion_usuario {
+	string emocion;
+}
